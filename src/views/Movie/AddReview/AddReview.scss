@@ -1,0 +1,26 @@
+.add-review-textarea {
+    appearance: none;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+    color: #13141a;
+    background-color: #fff;
+    border: none;
+}
+
+.add-review-textarea::-webkit-input-placeholder {
+    color: #13141a;
+}
+
+.add-review-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.add-review-actions > button {
+    margin-left: 10px;
+}
